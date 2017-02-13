@@ -1,0 +1,199 @@
+body { 	
+	margin-left: auto;
+    margin-right: auto;
+    min-width: 800px; 
+}
+#container{
+	text-align: center;
+}
+
+.nav-menu{/* nav bar */
+	text-align: justify;
+	width: 100%;
+}
+.nav-menu-items{
+	font: 10pt sans-serif;
+	list-style: none;
+	margin-left: auto;
+    margin-right: auto;
+    /*width: 800px;*/
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.nav-menu-items li{
+	display : inline-block; 
+}
+li img{
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.dropdown-items {
+    display: none;
+    position: absolute;
+    background-color: rgb(80,122,165);
+    min-width: 160px;
+    z-index: 6;
+}
+.dropdown-items a {
+    color: white;
+    font-size: 12px;
+    padding: 8px 5px 5px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-items a:hover { 
+	background-color: rgb(70,106,144)
+}
+.dropdown-items a:hover:after { 
+	padding-left: 3px;
+	padding-right: 10px;
+	content: url(http://placehold.it/10x10); 
+    display: inline;
+}
+.dropdown:hover .dropdown-items { /*displays drop down menu when hover*/
+    display: block;
+	border-bottom-right-radius: 5px;
+
+}
+
+li a:hover, .dropdown:hover .dropbtn { /*when hovering over dropdown menu*/
+	color: white;
+    background-color: rgb(80,122,165);
+    border-radius: 5px;
+
+}
+.dropbtn{ /*padding and radius for nav bar*/
+	padding: 5px 10px 5px 10px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	color:black;
+	text-decoration: none;
+}
+
+.search-bar{
+	padding-left: 5px;
+	display: inline-block;
+	box-shadow: none;
+    height: 20px;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+    outline: none;
+    border: 1px solid #dddddd;
+}
+.search-btn{
+    margin-left: -2px;
+	display: inline-block;
+	box-shadow: none;
+	height: 24px;
+	background-color:rgb(80,122,165);
+	color:white;
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+	outline: none;
+    border: 1px ;
+}
+
+.nav-bar-hr{
+	width: 85%;
+	margin-bottom: 25px;
+	overflow:hidden;
+	border: 1px solid #dddddd;
+}
+
+
+/********************************************************/
+
+.content-half-1{
+	position: absolute;
+	width: 60%;
+	padding-left:10%;
+	z-index:5;
+	overflow:auto;
+}
+	table{
+		width: 100%;
+	}
+	.description{
+		padding-top: 0px;
+		padding-left: 20px;
+		text-align: left;
+		font: bold 27px sans-serif;
+		color: rgb(80,122,165); 
+	}
+	.description2{
+		font-size: 14px;
+	}
+    .img-banner{
+    	width: 150px;
+    	height: 30px;
+    	background-color: rgb(80,122,165); 
+    	color: white;
+    	font: 14px sans-serif;
+  		line-height:30px;
+  		margin-top: -5px;
+  		margin-bottom: 3px;
+    } 
+    .col-2-hr{
+		margin: 3px;
+		border: 1px solid #dddddd;
+	}
+
+	.row-1-col-1, .row-2-col-1, .row-3-col-1{
+		border: 1px solid #dddddd;
+		border-width: 1px;
+		padding-top: 5px;
+		padding-left: 5px;
+		padding-right: 5px;
+		float: left;
+		margin-left: auto;
+    	margin-right: auto;
+	}
+	.content-half-1 a{
+		color:rgb(80,122,165);
+		text-decoration: none;
+	}
+	.date{
+		position: relative;
+		float: left;
+		font-size: 12px;
+		color:black;
+	}
+	.comment{
+		position: relative;
+		font-size: 12px;
+		float: right;
+	}
+	.col-2-row-3{
+		padding-left: 3px;
+	}
+	hr.between-rows{
+		margin-top: 25px;
+		margin-bottom: 25px;
+		border: 1px solid #dddddd;
+	}
+
+/********************************************************/
+
+.col-3-vline{
+	position: absolute;
+	padding-right: 25%;	
+	padding-left: 73%;
+	margin-top: -10px;	
+	float: center;
+	overflow:hidden;
+}
+
+/********************************************************/
+
+.content-col-4{
+	position: relative;
+ 	padding-left: 68%;
+	padding-right: 0%;
+	float: center;
+	min-width: 400px;
+}
